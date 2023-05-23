@@ -19,3 +19,7 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+html {
+  background-color: rgb(255 251 235);
+}
