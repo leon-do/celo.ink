@@ -29,7 +29,6 @@ export default function QR() {
   return (
     <div className="m-auto">
       <div className="px-6 py-24 sm:py-32 lg:px-8">
-        {/* title */}
         <div className="flex justify-center">
           <Image width="300" height="300" alt="Celo.ink" src="https://github-production-user-asset-6210df.s3.amazonaws.com/19412160/240450299-a4d6e342-b738-4cd1-aa46-d25f086198db.svg" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl" />
         </div>
@@ -37,7 +36,7 @@ export default function QR() {
         <div className="mx-auto max-w-2xl text-center">
           <p className="mt-6 text-lg leading-8 text-gray-600">Use Celo.ink to customize invoices for Valora mobile app. Generate beautiful QR codes for your customers to pay with Celo dollars.</p>
           <div className="flex justify-center m-6">
-            <Image alt="qr" src={qr} />
+            <Image alt="qr" width="400" height="400" src={qr} />
           </div>
           <div className="relative  m-6">
             <label htmlFor="name" className="absolute -top-2 left-2 inline-block bg-white px-1 text-xs font-medium text-gray-900">
