@@ -9,7 +9,7 @@ export default function Technology() {
             <Image width={75} height={75} className="h-12 self-start" src="https://images.ctfassets.net/wr0no19kwov9/5yVbTScDuXaZE0JL0w1kL0/f626c00085927069b473e684148c36f3/Union_1_.svg" alt="" />
             <figure className="mt-3 flex flex-auto flex-col justify-between">
               <blockquote className="text-sm leading-8 text-gray-900">
-                <p>“Celo is the carbon-negative, mobile-first, EVM-compatible blockchain ecosystem leading a thriving new digital economy for all. Celo's mission is to build a regenerative digital economy that creates conditions of prosperity for all.”</p>
+                <p>“Celo is the carbon-negative, mobile-first, EVM-compatible blockchain ecosystem leading a thriving new digital economy for all. Celo&apos;s mission is to build a regenerative digital economy that creates conditions of prosperity for all.”</p>
               </blockquote>
             </figure>
           </div>
@@ -17,7 +17,7 @@ export default function Technology() {
             <Image width={75} height={75} className="h-12 self-start" src="https://www.masa.finance/assets/logo.svg" alt="" />
             <figure className="mt-4 flex flex-auto flex-col justify-between">
               <blockquote className="text-sm leading-8 text-gray-900">
-                <p>“Masa is the world's first Soulbound Token (SBT) Identity Protocol. Masa uses SBTs to represent users' attributes in web3 and in the real world, along with a protocol-level abstraction that enables the full management of SBTs and the data attributed to them”</p>
+                <p>“Masa is the world&apos;s first Soulbound Token (SBT) Identity Protocol. Masa uses SBTs to represent users&apos; attributes in web3 and in the real world, along with a protocol-level abstraction that enables the full management of SBTs and the data attributed to them”</p>
               </blockquote>
             </figure>
           </div>
