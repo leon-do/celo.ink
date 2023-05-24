@@ -1,6 +1,7 @@
 import { useState } from "react";
 import QRCode from "qrcode";
 import { ethers } from "ethers";
+import Image from "next/image";
 
 export default function QR() {
   const [soulName, setsoulName] = useState("leondo.celo");
@@ -28,8 +29,12 @@ export default function QR() {
   return (
     <div className="m-auto">
       <div className="px-6 py-24 sm:py-32 lg:px-8">
+        {/* title */}
+        <div className="flex justify-center">
+          <Image width="300" height="300" alt="Celo.ink" src="https://github-production-user-asset-6210df.s3.amazonaws.com/19412160/240450299-a4d6e342-b738-4cd1-aa46-d25f086198db.svg" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl" />
+        </div>
+
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Celo.ink</h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">Use Celo.ink to customize invoices for Valora mobile app. Generate beautiful QR codes for your customers to pay with Celo dollars.</p>
           <div className="flex justify-center m-6">
             <img src={qr} />
