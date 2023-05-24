@@ -33,10 +33,8 @@ export default function Subdomain() {
     <main className="py-24 sm:py-32">
       <div className="m-auto">
         <div className="px-6 py-24 sm:py-32 lg:px-8">
-          <div className="text-center text-gray-600 text-5xl hover:text-gray-800 hover:cursor-pointer hover:underline">
-            <Link href={`https://explorer.celo.org/mainnet/address/${address}`}>{soulName}</Link>
-          </div>
-          <div className="text-center text-gray-600 text-xl pt-6">{address}</div>
+          <div className="text-center text-gray-800 text-5xl font-mono">{soulName}</div>
+          <div className="text-center text-gray-600 text-xl pt-6 font-mono">{address}</div>
 
           <div className="mx-auto max-w-2xl text-center">
             <div className="flex justify-center m-6">
