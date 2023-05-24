@@ -34,7 +34,7 @@ export default function QR() {
         </div>
 
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mt-6 text-lg leading-8 text-gray-600">Use Celo.ink to customize invoices for Valora mobile app. Generate beautiful QR codes for your customers to pay with Celo dollars.</p>
+          <p className="mt-6 text-lg leading-8 text-gray-600">Soul Bound QR Invoices</p>
           <div className="flex justify-center m-6">
             <Image alt="qr" width="400" height="400" src={qr} />
           </div>

@@ -9,7 +9,7 @@ export default function Technology() {
             <Image width={75} height={75} className="h-12 self-start" src="https://github-production-user-asset-6210df.s3.amazonaws.com/19412160/240451657-1b332722-c69c-4562-a426-47e9d1590b9a.svg" alt="" />
             <figure className="mt-3 flex flex-auto flex-col justify-between">
               <blockquote className="text-sm leading-8 text-gray-900">
-                <p>“Celo.ink combines Celo&apos;s mobile-first EVM blockchain with Masa&apos;s Soulbound Token to create Soulbound Invoices and Websites.”</p>
+                <p>“Celo.ink combines Celo&apos;s mobile-first EVM blockchain with Masa&apos;s Soulbound Token. Customize invoices for Valora mobile app. Generate beautiful QR codes for your customers to pay with Celo dollars (cUSD).”</p>
               </blockquote>
             </figure>
           </div>
