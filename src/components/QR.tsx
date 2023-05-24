@@ -30,7 +30,7 @@ export default function QR() {
     <div className="m-auto">
       <div className="px-6 py-24 sm:py-32 lg:px-8">
         <div className="flex justify-center">
-          <Image width="300" height="300" alt="Celo.ink" src="https://github-production-user-asset-6210df.s3.amazonaws.com/19412160/240450299-a4d6e342-b738-4cd1-aa46-d25f086198db.svg" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl" />
+          <Image width="300" height="300" alt="Celo.ink" src="https://github-production-user-asset-6210df.s3.amazonaws.com/19412160/240451657-1b332722-c69c-4562-a426-47e9d1590b9a.svg" className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl" />
         </div>
 
         <div className="mx-auto max-w-2xl text-center">

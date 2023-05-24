@@ -6,7 +6,7 @@ export default function Technology() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
-            <Image width={75} height={75} className="h-12 self-start" src="https://github-production-user-asset-6210df.s3.amazonaws.com/19412160/240451657-1b332722-c69c-4562-a426-47e9d1590b9a.svg" alt="" />
+            <Image width={75} height={75} className="h-12 self-start" src="https://images.ctfassets.net/wr0no19kwov9/5yVbTScDuXaZE0JL0w1kL0/f626c00085927069b473e684148c36f3/Union_1_.svg" alt="" />
             <figure className="mt-3 flex flex-auto flex-col justify-between">
               <blockquote className="text-sm leading-8 text-gray-900">
                 <p>“Celo is the carbon-negative, mobile-first, EVM-compatible blockchain ecosystem leading a thriving new digital economy for all. Celo&apos;s mission is to build a regenerative digital economy that creates conditions of prosperity for all.”</p>
