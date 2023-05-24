@@ -6,7 +6,6 @@ import type { NextRequest } from "next/server";
 const PUBLIC_FILE = /\.(.*)$/; // Files
 
 export async function middleware(req: NextRequest) {
-  console.log("middleware.ts");
   // Clone the URL
   const url = req.nextUrl.clone();
 
