@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Ezra';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://www.masa.finance/_next/static/media/Ezra-Medium.c38fb492.otf) format('ttf');
-}
-
 /* hide number input */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

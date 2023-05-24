@@ -5,7 +5,7 @@ import Technology from "../components/Technology";
 
 export default function Index() {
   return (
-    <main className="py-24 sm:py-32 body-font font-ezra">
+    <main className="py-24 sm:py-32">
       <QR />
       <Technology />
     </main>
