@@ -17,7 +17,6 @@ export default function QR() {
     if (soulName.indexOf("0x") === -1) address = await fetch(`/api?soulName=${soulName}`).then((res) => res.json().then((res) => res.address));
     if (!ethers.utils.isAddress(address)) return console.error("invalid address");
     // celo://wallet/pay?address=0xc49a7E03d79d3eEFb09920263a42D33B88dA9250&comment=Item%20%2342220&amount=1.99
-    console.log(soulName);
     const urlComment = soulName ? `&comment=${encodeURIComponent(comment + "\n\n" + soulName + "\nwww.celo.ink")}` : `&comment=${encodeURIComponent(comment + "\nwww.celo.ink")}`;
     const urlAmount = amount ? `&amount=${amount}` : "";
     const url = `celo://wallet/pay?address=${address}${urlComment}${urlAmount}`;
