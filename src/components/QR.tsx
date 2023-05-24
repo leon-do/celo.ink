@@ -33,7 +33,7 @@ export default function QR() {
         </div>
 
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mt-6 text-lg leading-8 text-gray-600">Soul Bound QR Invoices</p>
+          <p className="mt-6 text-lg leading-8 text-gray-600">Soulbound QR Codes</p>
           <div className="flex justify-center m-6">
             <Image alt="qr" width="400" height="400" src={qr} />
           </div>
