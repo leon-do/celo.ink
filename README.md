@@ -4,6 +4,8 @@ Use Celo.ink to customize invoices for Valora mobile app. Generate beautiful QR 
 
 ![](https://github.com/leon-do/3d-printed-glasses/assets/19412160/37f207d0-29a7-4c3c-88d6-4a539c8f6b8e)
 
+https://twitter.com/CeloDevs/status/1674796947121770503
+
 https://bwcseries2.hackerearth.com/
 
 ## Development
